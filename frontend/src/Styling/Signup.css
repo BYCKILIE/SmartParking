@@ -1,0 +1,352 @@
+.signup-page {
+  font-family: "Segoe UI";
+}
+
+body.signup-page-body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dde5f4;
+  height: 110vh;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
+}
+
+.signup-page {
+  background: hsl(212, 87%, 97%);
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 0 0 2em #e6e9f9;
+  gap: 1.3em;
+}
+
+.signup-page .logo {
+  margin-top: -9em;
+  margin-bottom: -6em;
+  margin-left: -7em;
+  width: 200px;
+  height: auto;
+  transform: scale(0.25);
+}
+
+.signup-page .title {
+  color: #4d4d4d;
+  text-align: left;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 0.7em;
+}
+
+.signup-page .signup-names {
+  display: flex;
+  gap: 20px;
+}
+
+.signup-page .signup-firstname {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: em;
+}
+
+.signup-page .signup-firstname input {
+  outline: none;
+  border: none;
+}
+
+.signup-page .signup-firstname input::-moz-placeholder {
+  color: black;
+  font-size: 1.05em;
+  
+}
+
+.signup-page .signup-firstname input:-ms-input-placeholder {
+  color: black;
+  font-size: 1.05em;
+  
+}
+
+.signup-page .signup-firstname input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-lastname {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: em;
+}
+
+.signup-page .signup-lastname input {
+  outline: none;
+  border: none;
+}
+
+.signup-page .signup-lastname input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-lastname input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-lastname input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-email {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: em;
+  width: 230px;
+}
+
+.signup-page .signup-email input {
+  outline: none;
+  border: none;
+}
+
+.signup-page .signup-email input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-email input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-email input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-phone-gender {
+  display: flex;
+  gap: 20px;
+}
+
+.signup-page .signup-phone {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: 0em;
+}
+
+.signup-page .signup-phone input {
+  outline: none;
+  border: none;
+}
+
+.signup-page .signup-phone input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-phone input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-phone input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-gender {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: em;
+  width: 165px;
+}
+
+.signup-page .signup-gender select {
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  color: #4d4d4d;
+}
+
+.signup-page .signup-gender select::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-gender select:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-gender select:invalid {
+  color: #aeaeae;
+  font-size: 0.95em;
+}
+
+.signup-page .signup-cnp {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: 0em;
+  width: 230px;
+}
+
+.signup-page .signup-cnp input {
+  outline: none;
+  border: none;
+}
+
+.signup-page .signup-cnp input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-cnp input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-cnp input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-address-password {
+  display: flex;
+  gap: 20px;
+}
+
+.signup-page .signup-address {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: 0em;
+}
+
+.signup-page .signup-address input {
+  outline: none;
+  border: none;
+  width: 300px;
+}
+
+.signup-page .signup-address input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-address input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-address input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .signup-password {
+  background: white;
+  box-shadow: 0 0 2em #e6e9f9;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  border-radius: 20px;
+  color: #4d4d4d;
+  margin-top: 0em;
+}
+
+.signup-page .signup-password input {
+  outline: none;
+  border: none;
+  width: 300px;
+}
+
+.signup-page .signup-password input::-moz-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-password input:-ms-input-placeholder {
+  color: black;
+  font-size: 0.9em;
+}
+
+.signup-page .signup-password input::placeholder {
+  color: #aeaeae;
+  font-size: 1.05em;
+}
+
+.signup-page .buttons {
+  display: flex;
+  gap: 500px;
+}
+
+.signup-page .signup {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  width: 100px;
+}
+
+.signup-page .back {
+  padding: 1em;
+  background: #3e4684;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  width: 100px;
+}

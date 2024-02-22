@@ -1,0 +1,237 @@
+.payment {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+
+body.payment {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    background: #dde5f4;
+    
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+
+    margin: 0;
+    padding: 0;
+}
+
+.payment nav {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: #3e4684;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+.payment a {
+    color: inherit;
+}
+
+.payment .logo {
+    margin-top: -7em;
+    margin-bottom: -7em;
+    margin-left: -5em;
+    width: 200px;
+    height: auto;
+    transform: scale(0.1);
+    color: inherit;
+    
+}
+
+.payment ul {
+    display: flex;
+}
+
+.payment ul li {
+    list-style: none;
+}
+
+.payment ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.payment ul li a:not(.active):hover {
+    background-color: #18226d;
+}
+
+.payment-form {
+    margin-top: 1%;
+    margin-bottom: 20%;
+    margin-left: 35%;
+    width: 400px;
+    background: hsl(212, 87%, 97%);
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 1.3em;
+    
+}
+
+.payment-form h1{
+    margin-top: 1px;
+    text-align: center;
+}
+
+.payment-form .card {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    border-radius: 20px;
+    color: #4d4d4d;
+}
+
+.payment-form .card input {
+    outline: none;
+    border: none;
+}
+
+.payment-form .card input::-moz-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .card input:-ms-input-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .card input::placeholder {
+    color: #aeaeae;
+    font-size: 1.05em;
+}
+
+.payment-form .second-row {
+    display: flex;
+    gap: 20px;
+}
+
+.payment-form .exp-date {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: em;
+}
+
+.payment-form .exp-date input {
+    outline: none;
+    border: none;
+}
+
+.payment-form .exp-date input::-moz-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .exp-date input:-ms-input-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .exp-date input::placeholder {
+    color: #aeaeae;
+    font-size: 1.05em;
+}
+
+.payment-form .cvv {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    width: 150px;
+    flex-direction: column;
+    gap: 0.1em;
+    border-radius: 20px;
+    color: #4d4d4d;
+    margin-top: em;
+}
+
+.payment-form .cvv input {
+    outline: none;
+    border: none;
+}
+
+.payment-form .cvv input::-moz-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .cvv input:-ms-input-placeholder {
+    color: black;
+    font-size: 1.05em;
+
+}
+
+.payment-form .cvv input::placeholder {
+    color: #aeaeae;
+    font-size: 1.05em;
+}
+
+.payment-form .info {
+    margin-bottom: -6em;
+}
+
+.payment-form .buttons {
+    margin-top: 100px;
+    align-items: center;
+    flex-direction:row-reverse;
+    display: flex;
+    gap: 220px;
+}
+
+.payment-form .confirm {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.payment-form .back {
+    padding: 1em;
+    background: #3e4684;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    font-weight: 600;
+}
+
+.payment .credits {
+    margin-top: -10em;
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}

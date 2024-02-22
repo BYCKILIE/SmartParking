@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="openalpr">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../openalpr_64/java" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../../openalpr_64" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../openalpr_64/java" />
+    </SOURCES>
+  </library>
+</component>
