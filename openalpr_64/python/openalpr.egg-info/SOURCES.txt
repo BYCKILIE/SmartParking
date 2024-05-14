@@ -1,0 +1,5 @@
+setup.py
+openalpr.egg-info/PKG-INFO
+openalpr.egg-info/SOURCES.txt
+openalpr.egg-info/dependency_links.txt
+openalpr.egg-info/top_level.txt
