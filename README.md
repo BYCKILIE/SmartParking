@@ -1,5 +1,18 @@
 Experience seamless parking management with our Smart Parking System, offering users the convenience of reserving parking slots for specific dates and times.
 
+--Scala Version:
+ - DBMS:
+   Working with 2 databases, one in PostgreSQL and one NoSQL MongoDB.
+   Dividing the tasks such as parking reservation in NoSQL and authentication management in SQL
+
+ - Circe Json parser
+
+ - Improved Server-Hardware communication via Pekko websockets to transmit images from the license plate detection cameras
+
+ - Migration in progress... 
+--
+
+--Python Version:
 Key Features:
 
 Frontend + Backend Applications: Our system comprises both frontend and backend applications, seamlessly integrated to provide a user-friendly experience. The frontend, built using Vite and React, offers intuitive interfaces for users to browse available parking slots, make reservations, and manage their bookings. On the backend, we leverage the robust Django framework to power our API, facilitating communication between the frontend, backend, and hardware components.
@@ -16,3 +29,4 @@ Django Framework: Powering our backend API, Django ensures robustness, security,
 Vite + React: Leveraging modern frontend technologies, our React-based frontend delivers fast, responsive interfaces, enhancing user engagement and satisfaction.
 Raspberry Pi: Utilizing Raspberry Pi for demonstration purposes, we showcase the practical implementation of our Smart Parking System, illustrating its real-world applicability.
 Experience the future of parking management with our Smart Parking System, simplifying the way users reserve and manage parking spaces with efficiency and ease.
+--
