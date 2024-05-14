@@ -1,0 +1,226 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.reservation {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    
+}
+
+body.reservation {
+    margin: 0;
+    padding: 0;
+    background: hsl(212, 87%, 97%);
+}
+
+.reservation nav {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: #3e4684;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+.reservation a {
+    color: inherit;
+}
+
+.reservation .logo {
+    margin-top: -7em;
+    margin-bottom: -7em;
+    margin-left: -5em;
+    width: 200px;
+    height: auto;
+    transform: scale(0.1);
+    color: inherit;
+    
+}
+
+.reservation ul {
+    display: flex;
+}
+
+.reservation ul li {
+    list-style: none;
+}
+
+.reservation ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.reservation ul li a:not(.active):hover {
+    background-color: #18226d;
+}
+
+.reservation .title {
+    font-size: 70px;
+    text-align: center;
+}
+
+.reservation .parking-lot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px; 
+    width: 640px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin-left: 26em;
+    margin-top: 2em;
+    padding: 10px;
+    margin-bottom: 7em;
+}
+  
+.reservation .top-row, .bottom-row {
+    display: flex;
+}
+
+.reservation .parking-row {
+    display: flex;
+}
+
+.reservation .parking-spot-occupied, 
+.reservation .parking-spot-free{
+    width: 70px;
+    height: 120px;
+    margin-right: 2px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.reservation .parking-spot-occupied:last-child, 
+.reservation .parking-spot-free:last-child{
+    border-right: none;
+
+}
+
+.reservation .parking-spot-occupied{
+    background-color: rgb(253, 63, 63);
+    border-radius: 15px;
+}
+
+.reservation .parking-spot-free{
+    background-color: rgb(64, 206, 64);
+    border-radius: 15px;
+}
+
+.parking-lot:last-child {
+    margin-right: 0;
+  }
+
+.parking-lot .selected-spot {
+    text-align: center;
+    font-size: 30px;
+}
+
+.reservation .datetime {
+    margin-bottom: 5em;
+    text-align: center;
+    
+}
+
+.reservation input {
+    width: 270px;
+    height: 50px;
+    font-size: 28px;
+    border-radius: 20px;
+    font-family: "Segoe UI";
+    text-align: center;
+    background-color:#5869e9;
+    color: white;
+}
+
+.reservation input::placeholder{
+    color: white;
+}
+
+.reservation .timeAmount, .describing {
+    text-align: center;
+}
+
+.reservation .minutes {
+    margin-left: 45%;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    background-color:#5869e9;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.reservation .minutes:hover {
+    border-radius: 20px;
+    background-color:#5869e9;
+}
+
+.reservation .license {
+    text-align: center;
+}
+
+.reservation .licenseInput {
+    margin-left: 40%;
+    width: 300px;
+}
+
+.reservation .pay{
+    margin-top: 3em;
+    margin-left: 43.5%;
+    width: 200px;
+    height: 80px;
+    font-size: 28px;
+    border-radius: 30px;
+    background-size: 200% auto;
+    color: white;
+    background-image: linear-gradient(to right, #326bb4 0%, #70c0e6 51%, #326bb4 100%);
+    transition: 0.5s;
+}
+
+.reservation .pay:hover {
+    background-position: right center;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.reservation .outroh {
+    background: linear-gradient(to left, #3e4684, #00BCD5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-top: 1em;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 1em;
+    color: linear-gradient(to right, #3e4684, #00BCD5)
+}
+
+.reservation .credits {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}

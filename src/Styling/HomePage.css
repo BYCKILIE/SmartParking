@@ -1,0 +1,260 @@
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.homepage {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    
+}
+
+body.homepage {
+    margin: 0;
+    padding: 0;
+    background: hsl(212, 87%, 97%);
+}
+
+.homepage nav {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: #3e4684;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+.homepage a {
+    color: inherit;
+}
+
+.homepage .logo {
+    margin-top: -7em;
+    margin-bottom: -7em;
+    margin-left: -5em;
+    width: 200px;
+    height: auto;
+    transform: scale(0.1);
+    color: inherit;
+    
+}
+
+.homepage ul {
+    display: flex;
+}
+
+.homepage ul li {
+    list-style: none;
+}
+
+.homepage ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.homepage ul li a:not(.active):hover {
+    background-color: #18226d;
+}
+
+.homepage .main {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    display: grid;
+    height: 100%;
+    margin-bottom: 8em;
+}
+
+.homepage .mainImage {
+    width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    filter: brightness(0.55);
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}    
+
+.homepage .welcome {
+    font-family: system-ui;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    animation: fadeIn 3s;
+    
+}
+
+.homepage .sm {
+    font-family: system-ui;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    font-weight: 700;
+    color: rgb(124, 193, 250);
+    text-align: center;
+    animation: fadeIn 3s;
+    
+}
+
+.homepage .reservation {
+    font-family: 'Montserrat', sans-serif;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+    background-size: 200% auto;
+    color: white;
+    background-image: linear-gradient(to right, #326bb4 0%, #70c0e6 51%, #326bb4 100%);
+    border-radius: 30px;
+    transition: 0.5s;
+    animation: fadeIn 4s;
+}
+
+.homepage .reservation:hover {
+    background-position: right center;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.homepage .introduction {
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 30em;
+}
+
+.homepage .column1 {
+    width: 450px;
+    float: left;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.homepage .column2 {
+    width: 450px;
+    float: left;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.homepage .title {
+    font-size: 30px;
+    margin-left: 20%;
+    
+}
+
+.homepage .text {
+    text-align: center;
+    font-size: 20px;
+    padding: 14px;
+    
+}
+
+.homepage .introduction-image {
+    border-radius: 20px;
+}
+
+.homepage .story {
+    width: 101.07%;
+    height: 300px;
+    background-color: #00BCD5;
+    clear: both;
+    margin-left: -0.5em;
+}
+
+.homepage .column3 {
+    width: 350px;
+    float: left;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.homepage .column4 {
+    width: 1000px;
+    float: left;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.homepage .devices {
+    max-width: 100%;
+    padding-left: 18em;
+    padding-top: 2.5em;
+}
+
+.homepage .storytime {
+    font-size: 80px;
+    padding-left: 3.2em;
+    margin-top: 0.3em;
+    font-weight: 500;
+    color: white;
+}
+
+.homepage .outro {
+    padding-top: 2em;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 4em;
+    color: linear-gradient(to right, #3e4684, #00BCD5)
+}
+
+.homepage .reserve {
+    font-family: "Segoe UI";
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    background-size: 200% auto;
+    color: white;
+    background-image: linear-gradient(to right, #326bb4 0%, #70c0e6 51%, #326bb4 100%);
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.homepage .reserve:hover {
+    background-position: right center;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.homepage .outroh {
+    background: linear-gradient(to left, #3e4684, #00BCD5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.homepage .credits {
+    font-size: 20px;
+    margin-bottom: -7em;
+    color: gray;
+}

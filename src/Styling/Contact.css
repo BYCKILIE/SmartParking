@@ -1,0 +1,128 @@
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 600ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+  }
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.contact {
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+    
+}
+
+body.contact {
+    margin: 0;
+    padding: 0;
+    background: hsl(212, 87%, 97%);
+}
+
+.contact nav {
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: #3e4684;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+
+.contact a {
+    color: inherit;
+}
+
+.contact .logo {
+    margin-top: -7em;
+    margin-bottom: -7em;
+    margin-left: -5em;
+    width: 200px;
+    height: auto;
+    transform: scale(0.1);
+    color: inherit;
+    
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact ul li {
+    list-style: none;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.contact ul li a:not(.active):hover {
+    background-color: #18226d;
+}
+
+.contact h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+.contact .contactinfo {
+    width: 1300px;
+    margin: 0 auto;
+    padding-bottom: 6em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact .column0,
+.contact .column1,
+.contact .column2,
+.contact .column3 {
+    width: calc(25% - 20px); /* Ajustează lățimea coloanelor și spațiile dintre ele */
+    margin: 10px;
+}
+
+.contact .material-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.contact .insta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
+
+.contact .title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contact .text {
+    text-align: center;
+    font-size: 20px;
+    padding: 14px;
+}
+
+.contact .credits {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
